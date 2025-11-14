@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Care | People</title>
+    <link rel="icon" href="../Pictures/logo_2.png" type="image/png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-4" href="../index.html">
+                <img src="../Pictures/logo.png" alt="Logo" width="90" height="64">
+                Memory Care
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-4" href="Appointments.html" aria-current="page">Appointments</a>
+                    </li>
+                    <li class="nav-item dropdown fs-4" id="dropdown">
+                        <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            People
+                        </a>
+                        <ul class="dropdown-menu fs-4">
+                            <li><a class="dropdown-item active" href="People.html">Your People</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="People_Family.html">Family</a></li>
+                            <li><a class="dropdown-item" href="People_Friends.html">Friends</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success fs-5" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="card_people col-8">
+        <div>
+            <h1>Family:</h1>
+            <div class="card card_people_item">
+                <div class="card-body card_body_people">
+                    <img class="img_card" src="../img/download.jpg" alt="">
+                    <div class="card_content">
+                        <h5 class="card-title">Name</h5>
+                        <h6 class="card-subtitle">Kinship</h6>
+                        <p class="card-text">Some details about the person.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h1>Friends:</h1>
+            <div class="card card_people_item">
+                <div class="card-body card_body_people">
+                    <img class="img_card" src="../img/download.jpg" alt="">
+                    <div class="card_content">
+                        <h5 class="card-title">Name</h5>
+                        <h6 class="card-subtitle">Kinship</h6>
+                        <p class="card-text">Some details about the person.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
