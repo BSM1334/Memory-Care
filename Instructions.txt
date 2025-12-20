@@ -1,0 +1,7 @@
+1. Install XAMPP
+2. downlaod Tazkeer.rar in "htdocs" that locates in xampp folder in C partition and Extract it
+3. CLick on "Start" for Apache and MySQL
+4. CLick on "Admin" for Apache
+5. put "http://localhost/Tazkeer/" in the URL
+
+Congratulations ✅
